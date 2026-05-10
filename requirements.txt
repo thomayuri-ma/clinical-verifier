@@ -1,20 +1,11 @@
-# Core pipeline
 sentence-transformers>=2.7.0
 faiss-cpu>=1.8.0
 langchain>=0.2.0
 langchain-community>=0.2.0
 pypdf>=4.0.0
 numpy>=1.26.0
-
-# Judge LLM
-openai>=1.30.0          # For GPT-3.5 / GPT-4 judge
-requests>=2.31.0        # For Ollama
-
-# API server
+openai>=1.30.0
+requests>=2.31.0
 flask>=3.0.0
-
-# Optional — for richer PDF handling
 pdfminer.six>=20221105
-
-# Dev / eval
-rich>=13.0.0            # Pretty console output
+gunicorn
