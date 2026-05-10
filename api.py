@@ -8,25 +8,18 @@ Endpoints:
 
 Usage:
     pip install flask
-    python src/api.py
-
-    # Or with gunicorn:
-    gunicorn src.api:app --bind 0.0.0.0:8000
+    python api.py
 """
 
 import os
 import sys
 from pathlib import Path
 
-# Make project root importable
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
 from flask import Flask, jsonify, request
-from src.verify import ClinicalVerifier
+from verify import ClinicalVerifier
 
 app = Flask(__name__)
 
-# Lazy-initialised singleton verifier
 _verifier = None
 
 
@@ -34,10 +27,10 @@ def get_verifier() -> ClinicalVerifier:
     global _verifier
     if _verifier is None:
         use_openai = os.environ.get("USE_OLLAMA", "").lower() not in ("1", "true")
-        _verifier  = ClinicalVerifier(
-            index_path  = os.environ.get("INDEX_PATH", "data/guidelines.index"),
-            use_openai  = use_openai,
-            ollama_model = os.environ.get("OLLAMA_MODEL", "llama3"),
+        _verifier = ClinicalVerifier(
+            index_path=os.environ.get("INDEX_PATH", "data/guidelines.index"),
+            use_openai=use_openai,
+            ollama_model=os.environ.get("OLLAMA_MODEL", "llama3"),
         )
     return _verifier
 
@@ -71,13 +64,13 @@ def verify():
 
 @app.route("/ingest", methods=["POST"])
 def ingest():
-    from src.ingest import run as ingest_run
+    from ingest import run as ingest_run
     global _verifier
-    body    = request.get_json(force=True, silent=True) or {}
+    body = request.get_json(force=True, silent=True) or {}
     pdf_dir = body.get("pdf_dir", "guidelines/")
     idx_path = os.environ.get("INDEX_PATH", "data/guidelines.index")
     ingest_run(pdf_dir=pdf_dir, index_path=idx_path)
-    _verifier = None          # Force reload on next request
+    _verifier = None
     return jsonify({"status": "index rebuilt", "index_path": idx_path})
 
 
