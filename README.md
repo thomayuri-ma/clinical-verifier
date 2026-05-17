@@ -198,13 +198,4 @@ clinical-verifier/
 - **Judge bias** — LLM judges can be miscalibrated. Calibrate confidence scores on a held-out set.
 - **NCS as hallucination proxy** — high variance ≠ hallucination; it can also reflect genuine clinical ambiguity.
 - Future: fine-tune a dedicated verifier on clinical NLI datasets (MedNLI, NLI4CT).
-
----
-
-## Citation
-
-If you use this in your research:
-```
-Clinical Verifier: RAG-based guideline contradiction detection for LLM outputs.
-MSc AI in Healthcare demo project, University of Manchester, 2024.
 ```
