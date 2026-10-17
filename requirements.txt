@@ -1,5 +1,0 @@
-# Core lexical workflow, HTTP API and tests use Python 3.10+ standard library.
-# Optional dense retrieval and measured embedding consistency:
-sentence-transformers>=2.7,<6
-faiss-cpu>=1.8,<2
-numpy>=1.26,<3
