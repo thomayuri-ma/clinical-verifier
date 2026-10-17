@@ -1,0 +1,18 @@
+{
+  "completed": false,
+  "n_cases": 12,
+  "status_counts": {
+    "backend_error": 12
+  },
+  "consistency_failures": 0,
+  "clinical_validation": false,
+  "interpretation": "Development only. Labels are not independent clinical ground truth. No calibrated safety claim.",
+  "classification_metrics": null,
+  "metrics_withheld_reason": "Model, response or consistency errors occurred; performance metrics withheld.",
+  "elapsed_seconds_total": 0.00038799500021013955,
+  "retrieval": {
+    "evidence_hit_at_3": 1.0,
+    "n_eligible": 11,
+    "definition": "At least one expected passage retrieved; not clinical correctness"
+  }
+}

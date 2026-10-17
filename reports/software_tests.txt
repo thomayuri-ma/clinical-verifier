@@ -1,0 +1,48 @@
+test_api_backend_failure_503 (test_pipeline.APITests.test_api_backend_failure_503) ... ok
+test_api_invalid_types (test_pipeline.APITests.test_api_invalid_types) ... ok
+test_api_supplied_score_rejected (test_pipeline.APITests.test_api_supplied_score_rejected) ... ok
+test_health_honest (test_pipeline.APITests.test_health_honest) ... ok
+test_ingest_endpoint_removed (test_pipeline.APITests.test_ingest_endpoint_removed) ... ok
+test_backend_error_requires_review (test_pipeline.PipelineTests.test_backend_error_requires_review) ... ok
+test_cli_imports_without_optional_ml_packages (test_pipeline.PipelineTests.test_cli_imports_without_optional_ml_packages) ... ok
+test_consistency_invalid_embeddings (test_pipeline.PipelineTests.test_consistency_invalid_embeddings) ... ok
+test_consistency_math (test_pipeline.PipelineTests.test_consistency_math) ... ok
+test_contradiction_never_downgraded (test_pipeline.PipelineTests.test_contradiction_never_downgraded) ... ok
+test_dataset_scores_forbidden (test_pipeline.PipelineTests.test_dataset_scores_forbidden) ... ok
+test_duplicate_references_rejected (test_pipeline.PipelineTests.test_duplicate_references_rejected) ... ok
+test_errors_withhold_metrics_and_save_records (test_pipeline.PipelineTests.test_errors_withhold_metrics_and_save_records) ... ok
+test_full_provenance_preserved (test_pipeline.PipelineTests.test_full_provenance_preserved) ... ok
+test_historical_metric_arithmetic_only (test_pipeline.PipelineTests.test_historical_metric_arithmetic_only) ... ok
+test_invalid_consistency_scores (test_pipeline.PipelineTests.test_invalid_consistency_scores) ... ok
+test_invalid_json (test_pipeline.PipelineTests.test_invalid_json) ... ok
+test_invented_quote (test_pipeline.PipelineTests.test_invented_quote) ... ok
+test_json_fences (test_pipeline.PipelineTests.test_json_fences) ... ok
+test_lexical_retrieval (test_pipeline.PipelineTests.test_lexical_retrieval) ... ok
+test_malformed_response_requires_review (test_pipeline.PipelineTests.test_malformed_response_requires_review) ... ok
+test_measured_samples (test_pipeline.PipelineTests.test_measured_samples) ... ok
+test_missing_credentials_no_network (test_pipeline.PipelineTests.test_missing_credentials_no_network) ... ok
+test_missing_evidence (test_pipeline.PipelineTests.test_missing_evidence) ... ok
+test_model_required (test_pipeline.PipelineTests.test_model_required) ... ok
+test_negation_not_overridden (test_pipeline.PipelineTests.test_negation_not_overridden) ... ok
+test_no_automatic_corpus_generation (test_pipeline.PipelineTests.test_no_automatic_corpus_generation) ... ok
+test_no_cross_prompt_keyword_heuristic (test_pipeline.PipelineTests.test_no_cross_prompt_keyword_heuristic) ... ok
+test_no_evidence_no_model_call (test_pipeline.PipelineTests.test_no_evidence_no_model_call) ... ok
+test_nonfinite_confidence (test_pipeline.PipelineTests.test_nonfinite_confidence) ... ok
+test_preset_consistency_rejected (test_pipeline.PipelineTests.test_preset_consistency_rejected) ... ok
+test_safe_label_rejected (test_pipeline.PipelineTests.test_safe_label_rejected) ... ok
+test_sampler_failure_propagates (test_pipeline.PipelineTests.test_sampler_failure_propagates) ... ok
+test_synthetic_corpus_requires_opt_in (test_pipeline.PipelineTests.test_synthetic_corpus_requires_opt_in) ... ok
+test_uncertainty_never_low (test_pipeline.PipelineTests.test_uncertainty_never_low) ... ok
+test_unknown_citation (test_pipeline.PipelineTests.test_unknown_citation) ... ok
+test_valid_verdict (test_pipeline.PipelineTests.test_valid_verdict) ... ok
+test_wrong_candidate_consistency_rejected (test_pipeline.PipelineTests.test_wrong_candidate_consistency_rejected) ... ok
+test_connection_failure_visible (test_transport.TransportTests.test_connection_failure_visible) ... ok
+test_groq_adapter (test_transport.TransportTests.test_groq_adapter) ... ok
+test_http_failure_visible (test_transport.TransportTests.test_http_failure_visible) ... ok
+test_ollama_adapter (test_transport.TransportTests.test_ollama_adapter) ... ok
+test_openai_adapter (test_transport.TransportTests.test_openai_adapter) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 1.257s
+
+OK

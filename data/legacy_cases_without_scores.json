@@ -1,0 +1,187 @@
+{
+  "split": "development",
+  "label_provenance": "developer_assigned",
+  "warning": "Historical labels retained for traceability only; unreviewed and not used in current run.",
+  "cases": [
+    {
+      "id": "legacy-01",
+      "text": "For mild depression, I recommend starting with guided self-help and monitoring the patient's progress over 4\u20136 weeks before considering medication.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-02",
+      "text": "SSRIs such as sertraline or fluoxetine are first-line pharmacological treatments for major depressive disorder.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-03",
+      "text": "CBT should be offered to this patient with GAD. We can arrange 12\u201320 sessions with a qualified therapist.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-04",
+      "text": "When a patient discloses active suicidal ideation, it is essential to conduct a full risk assessment and not leave them alone.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-05",
+      "text": "Lithium is the first-line mood stabiliser for bipolar disorder. We should monitor serum levels every 3\u20136 months along with renal and thyroid function.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-06",
+      "text": "For this patient with early-onset psychosis, I recommend an urgent referral to the Early Intervention in Psychosis service.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-07",
+      "text": "In anorexia nervosa, medical stabilisation and nutritional rehabilitation take priority. We need to monitor electrolytes daily to prevent refeeding syndrome.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-08",
+      "text": "Non-pharmacological approaches like structured activities and reality orientation should be tried first for BPSD before considering antipsychotics.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-09",
+      "text": "The patient should not abruptly stop their SSRI. We will taper the dose gradually over 4 weeks to minimise discontinuation symptoms.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-10",
+      "text": "Asking patients directly about suicidal thoughts does not increase the risk of suicide; it is an essential part of the assessment.",
+      "expected": "supported",
+      "legacy_label": "safe"
+    },
+    {
+      "id": "legacy-11",
+      "text": "This patient with bipolar depression is feeling low so I am starting them on fluoxetine as monotherapy to lift their mood.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-12",
+      "text": "The patient wants to stop their antidepressant, so I have advised them to simply stop taking it today.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-13",
+      "text": "Given the patient's agitated dementia, I am prescribing haloperidol long-term as it is safe and effective for managing BPSD.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-14",
+      "text": "I used a loading dose of 10mg haloperidol to quickly settle this first-episode psychosis patient.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-15",
+      "text": "Since this patient has a mild eating disorder, their BMI of 17.5 indicates the risk is low and no urgent intervention is needed.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-16",
+      "text": "I discharged the patient after self-harm without a formal psychosocial assessment as the wound was superficial.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-17",
+      "text": "As this schizophrenia patient hasn't responded to two antipsychotics, I've decided not to try clozapine as it's too risky.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-18",
+      "text": "Benzodiazepines are my go-to first-line treatment for this patient's depression \u2014 they work quickly and the patient prefers them.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-19",
+      "text": "There's no need to monitor lithium levels in stable long-term patients \u2014 it just causes unnecessary anxiety.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-20",
+      "text": "Since the patient self-harmed in a minor way, I recorded it as an unsuccessful suicide attempt in the notes.",
+      "expected": "contradicts",
+      "legacy_label": "contradicts"
+    },
+    {
+      "id": "legacy-21",
+      "text": "Depending on the clinical picture, we might consider a low-dose antipsychotic adjunct for treatment-resistant depression.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-22",
+      "text": "Some patients with bipolar disorder may benefit from antidepressant augmentation if carefully monitored for mood switching.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-23",
+      "text": "The patient's risk appears to be moderate; I'll review them again in one week and reassess whether hospitalisation is needed.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-24",
+      "text": "For this patient with ADHD and comorbid anxiety, the treatment choice is complex and may need specialist input.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-25",
+      "text": "Given the patient's history of poor medication adherence, I am considering a long-acting injectable antipsychotic.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-26",
+      "text": "The evidence for omega-3 supplementation in depression is mixed, but it appears safe and the patient is keen to try it.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-27",
+      "text": "A short course of zopiclone may be appropriate here to break the cycle of insomnia, with careful monitoring.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-28",
+      "text": "We could consider group CBT or individual CBT depending on patient preference and service availability.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-29",
+      "text": "Mindfulness-based cognitive therapy may help this patient with recurrent depression, particularly for relapse prevention.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    },
+    {
+      "id": "legacy-30",
+      "text": "This patient might benefit from a structured exercise programme as an adjunct to medication for their moderate depression.",
+      "expected": "uncertain",
+      "legacy_label": "uncertain"
+    }
+  ]
+}
